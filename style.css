@@ -56,6 +56,9 @@ html, body{
 #pannel-bottom{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #263341;
     height: calc(100% - 80px);
     width: 100%;
     background-color: #9fbddc;
