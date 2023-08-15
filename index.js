@@ -6,7 +6,7 @@ for(let i = 0; i <= 113; i++){
 
 document.querySelector("#pannel-bottom").innerHTML = bbl_boxes;
 }
-let timer = 3 // or we can directly assign the value of 60 seconds
+let timer = 60; // or we can directly assign the value of 60 seconds
 function runTimer(){
 
     let setTimer = setInterval(function(){
