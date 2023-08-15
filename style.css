@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #576a7e;
+}
+
+#pannel{
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#pannel-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #263341;
+}
+#pannel-top .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+#pannel-top .box .num-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #263341;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+}
+
+#pannel-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: #9fbddc;
+    padding: 10px;
+}
+
+#pannel-bottom .bbl-box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #263341;
+    border-radius: 50%;
+    z-index: 1;
+}
+#pannel-bottom .bbl-box:hover{
+    background-color: #124a82;
+}
